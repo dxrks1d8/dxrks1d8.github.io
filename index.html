@@ -8,30 +8,28 @@
         <link rel="stylesheet" href="style.css">
 
         <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-        <script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+		<script>
             // Run the script after the content is fully loaded 
             window.addEventListener('DOMContentLoaded', () => {
-                VANTA.BIRDS({
-                    el: "#vanta",
-                    mouseControls: true,
-                    touchControls: true,
-                    gyroControls: false,
-                    minHeight: 200.00,
-                    minWidth: 200.00,
-                    scale: 1.00,
-                    scaleMobile: 1.00,
-                    color1: 0xbb61a0,
-                    color2: 0x000000,
-                    speedLimit: 4.00,
-                    separation: 33.00,
-                    alignment: 12.00,
-                    cohesion: 10.00,
-                    backgroundAlpha: 0.0
-                })
+                VANTA.NET({
+				  el: "#vanta",
+				  mouseControls: true,
+				  touchControls: true,
+				  gyroControls: false,
+				  minHeight: 200.00,
+				  minWidth: 200.00,
+				  scale: 1.00,
+				  scaleMobile: 1.00,
+				  color: 0x3f67ff,
+				  points: 11.00,
+				  maxDistance: 22.00,
+				  backgroundAlpha: 0.0
+				})
             })
             setTimeout(() => {
                 const main = document.querySelector('main');
@@ -71,60 +69,46 @@
         
             <ul>
                 <li>
-                    <a href="https://www.lihuicham.com/" target="_blank">
+                    <a href="https://t.me/inkxmil" target="_blank">
                         <div class="icon">
-                            <i class='bx bxs-home'></i>
+                            <iconify-icon icon="simple-icons:telegram"></iconify-icon>
                         </div>
-                        Personal Website
+                        Telegram
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/lihuicham" target="_blank">
+                    <a href="https://t.me/send?start=IVvnkFwxi6y5" target="_blank">
                         <div class="icon">
-                            <i class='bx bxl-github'></i>
+                            <iconify-icon icon="simple-icons:bitcoin"></iconify-icon>
                         </div>
-                        GitHub
+                        Bitcoin
                     </a>
                 </li>
                 <li>
-                    <a href="http://www.linkedin.com/in/lihuicham" target="_blank">
+                    <a href="https://t.me/send?start=IVPq3vuttzCz" target="_blank">
                         <div class="icon">
-                            <i class='bx bxl-linkedin-square'></i>
+                            <iconify-icon icon="simple-icons:ton"></iconify-icon>
                         </div>
-                        LinkedIn
+                        TON
                     </a>
                 </li>
                 <li>
-                    <a href="https://medium.com/@lihuicham" target="_blank">
+                    <a href="https://t.me/send?start=IVC3pAn6GfJm" target="_blank">
                         <div class="icon">
-                            <i class='bx bxl-medium-square'></i>
+                            <iconify-icon icon="simple-icons:tether"></iconify-icon>
                         </div>
-                        Medium Blog
+                        Tether
                     </a>
                 </li>
                 <li>
-                    <a href="https://open.spotify.com/show/0uwRGEGZz8ueZgVWOKiIUx?si=a244df3c9c9b419d" target="_blank">
+                    <a href="https://t.me/send?start=IVDjdKQJYkSt" target="_blank">
                         <div class="icon">
-                            <i class='bx bx-podcast'></i>
+                            <iconify-icon icon="simple-icons:ethereum"></iconify-icon>
                         </div>
-                        Podcast (2021)
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto: lihuicham@gmail.com" target="_blank">
-                        <div class="icon">
-                            <i class='bx bxs-envelope'></i>
-                        </div>
-                        Contact me
+                        Ethereum
                     </a>
                 </li>
             </ul>
-            <div class="repo">
-                <a href="https://github.com/lihuicham/linkinbio" target="_blank">
-                    <p>GitHub repo for this project</p>
-                    <i class='bx bxl-github'></i>   
-                </a>
-            </div>
 
         </main>
 
